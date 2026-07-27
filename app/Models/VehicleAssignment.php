@@ -26,6 +26,7 @@ class VehicleAssignment extends Model
     'status',
 ];
 
+
 protected $casts = [
     'assigned_at' => 'datetime',
     'planned_return_at' => 'datetime',

@@ -269,11 +269,7 @@
                 >
                     Simpan Driver
                 </button>
-<form
-    method="POST"
-    action="{{ route('admin.vehicles.store') }}"
-    enctype="multipart/form-data"
-></form>
+
             </div>
 
         </form>
